@@ -13,24 +13,10 @@ with open(har_file_path, "r", encoding="utf-8") as f:
 
 # Initialiser HarParser avec le dictionnaire
 har_parser = HarParser(har_data)
-ads_data = []
 
-# Champs principaux à garder
-wanted_fields = [
-    "list_id", "first_publication_date", "index_date", "status", "category_id",
-    "category_name", "subject", "body", "url", "price", "price_cents", "old_price",
-    "images", "location", "owner", "has_phone", "options"
-]
-
-# Champs à extraire de "attributes"
-attribute_fields = {
-    "condition": "condition",
-    "shipping_type": "shipping_type",
-    "shippable": "shippable",
-    "estimated_parcel_weight": "estimated_parcel_weight",
-    "rating_score": "rating_score",
-    "rating_count": "rating_count"
-}
+# Utiliser un dictionnaire pour stocker les annonces par list_id (évite les doublons)
+ads_dict = {}
+total_found = 0  # Compteur pour le nombre total d'annonces trouvées
 
 # Fonction pour tenter de décompresser une réponse
 def decompress_response(text, encoding):
@@ -96,21 +82,13 @@ for page in har_parser.pages:
             try:
                 response_json = json.loads(response_text)
                 if "ads" in response_json:
-                    filtered_ads = []
+                    total_found += len(response_json["ads"])  # Ajouter au total brut
                     for ad in response_json["ads"]:
-                        # Filtrer les champs principaux
-                        filtered_ad = {key: ad[key] for key in wanted_fields if key in ad}
-
-                        # Extraire les champs spécifiques de "attributes"
-                        if "attributes" in ad:
-                            for attr in ad["attributes"]:
-                                key = attr.get("key")
-                                if key in attribute_fields:
-                                    filtered_ad[attribute_fields[key]] = attr.get("value")
-
-                        filtered_ads.append(filtered_ad)
-                    print(f"Requêtes trouvée avec 'ads' : {entry.request.url}, {len(filtered_ads)} annonces")
-                    ads_data.extend(filtered_ads)
+                        list_id = ad.get("list_id")
+                        if list_id and list_id not in ads_dict:
+                            # Ajouter l'annonce au dictionnaire si elle n'existe pas encore
+                            ads_dict[list_id] = ad
+                    print(f"Requêtes trouvée avec 'ads' : {entry.request.url}, {len(response_json['ads'])} annonces (total unique : {len(ads_dict)})")
                 else:
                     print(f"Requêtes ignorée (pas de 'ads') : {entry.request.url}")
             except json.JSONDecodeError as e:
@@ -118,6 +96,12 @@ for page in har_parser.pages:
                 with open("erreurs.log", "a", encoding="utf-8") as log_file:
                     log_file.write(f"URL: {entry.request.url}\nRéponse brute: {response_text}\nErreur: {e}\n\n")
                 continue
+
+# Convertir le dictionnaire en liste pour l'export
+ads_data = list(ads_dict.values())
+
+# Récapitulatif final
+print(f"{total_found} annonces trouvées, total uniques : {len(ads_data)}")
 
 # Exporter en JSON
 if ads_data:
