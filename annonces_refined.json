@@ -1,1096 +1,1096 @@
-[
 {
-  "list_id": 2955944093,
-  "first_publication_date": "2025-03-19 17:46:31",
-  "index_date": "2025-03-19 17:46:31",
-  "status": "active",
-  "category_id": "88",
-  "category_name": "Loisirs créatifs",
-  "subject": "Imprimante 3D",
-  "body": "Vends Imprimante 3D très bon état servi 2..3 fois ...prix a débattre ... acheté 800€",
-  "brand": "leboncoin",
-  "ad_type": "offer",
-  "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2955944093",
-  "price": [
-    500
-  ],
-  "price_cents": 50000,
-  "images": {
-    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-thumb",
-    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-small",
-    "nb_images": 2,
-    "urls": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-image"
-    ],
-    "urls_thumb": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-thumb"
-    ],
-    "urls_large": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-large"
-    ]
-  },
-  "attributes": [
-    {
-      "key": "profile_picture_url",
-      "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small",
-      "values": [
-        "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small"
-      ],
-      "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small",
-      "generic": false
+    "2955944093": {
+        "list_id": 2955944093,
+        "first_publication_date": "2025-03-19 17:46:31",
+        "index_date": "2025-03-19 17:46:31",
+        "status": "active",
+        "category_id": "88",
+        "category_name": "Loisirs créatifs",
+        "subject": "Imprimante 3D",
+        "body": "Vends Imprimante 3D très bon état servi 2..3 fois ...prix a débattre ... acheté 800€",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2955944093",
+        "price": [
+            500
+        ],
+        "price_cents": 50000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-small",
+            "nb_images": 2,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2d/f6/ee/2df6eedd39012a50fab4c0695f695e90a0cbdf0d.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/e3/1a/4c/e31a4c93f4760cf5714ec4c283ea9e8d43de2032.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/270a86e3-6a5f-559b-90de-a431ef4cbf82?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "10000",
+                "values": [
+                    "10000"
+                ],
+                "value_label": "10000",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "S",
+                "values": [
+                    "S"
+                ],
+                "value_label": "S",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "mondial_relay",
+                "values": [
+                    "mondial_relay",
+                    "shop2shop",
+                    "relais_colis_dropoff",
+                    "face_to_face"
+                ],
+                "value_label": "mondial_relay",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "7",
+            "region_name": "Centre",
+            "department_id": "37",
+            "department_name": "Indre-et-Loire",
+            "city_label": "La Ville-aux-Dames 37700",
+            "city": "La Ville-aux-Dames",
+            "zipcode": "37700",
+            "lat": 47.39629,
+            "lng": 0.76326,
+            "source": "city",
+            "provider": "here",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.76326,
+                        47.39629
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "70437507",
+            "user_id": "a0180a16-6854-448a-9d45-10f84dc7dd6d",
+            "type": "private",
+            "name": "ourida",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "item_model": "Unknown",
+        "item_category": "Imprimante 3D",
+        "image_coherence": "No"
     },
-    {
-      "key": "estimated_parcel_weight",
-      "value": "10000",
-      "values": [
-        "10000"
-      ],
-      "value_label": "10000",
-      "generic": false
+    "2954494789": {
+        "list_id": 2954494789,
+        "first_publication_date": "2025-03-17 08:28:01",
+        "index_date": "2025-03-17 08:28:01",
+        "status": "active",
+        "category_id": "83",
+        "category_name": "Accessoires informatique",
+        "subject": "Imprimante 3D",
+        "body": "À vendre : Imprimante 3D Creality R6 – Très bon état 🖨️✨\n\nJe vends une imprimante 3D Creality R6, en très bon état et très peu utilisée. Elle est toujours dans son carton d’origine avec tous ses accessoires, y compris la documentation et une clé USB neuve. Je l'ai préparé pour pouvoir être expédiée dans problème. A réception, il n'y aura qu'à faire l'étalonnage à l'aide d'une feuille de papier (type papier d'impression A4).\n\n📌 Détails :\n\n    Modèle : Creality R6\n    État : Très bon, peu utilisée\n    Accessoires : Carton d'origine, documentation et clé USB neuve\n    Prix : 50 €\n\nIdéale pour débutants comme pour makers expérimentés, cette imprimante offre une excellente précision et une facilité d’utilisation.\n\n📩 Me contacter pour plus d’informations ou pour convenir d’un retrait/livraison.",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/accessoires_informatique/2954494789",
+        "price": [
+            50
+        ],
+        "price_cents": 5000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-small",
+            "nb_images": 2,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "rating_score",
+                "value": "1",
+                "values": [
+                    "1"
+                ],
+                "value_label": "1",
+                "generic": false
+            },
+            {
+                "key": "rating_count",
+                "value": "2",
+                "values": [
+                    "2"
+                ],
+                "value_label": "2",
+                "generic": false
+            },
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "7492",
+                "values": [
+                    "7492"
+                ],
+                "value_label": "7492",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "computer_accessories_product",
+                "value": "printerandscanner",
+                "values": [
+                    "printerandscanner"
+                ],
+                "key_label": "Produit",
+                "value_label": "Imprimante & scanner",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "mondial_relay",
+                "values": [
+                    "mondial_relay",
+                    "shop2shop",
+                    "relais_colis_dropoff",
+                    "colissimo",
+                    "face_to_face"
+                ],
+                "value_label": "mondial_relay",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "old_price",
+                "value": "60",
+                "values": [
+                    "60"
+                ],
+                "value_label": "60",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "7",
+            "region_name": "Centre",
+            "department_id": "37",
+            "department_name": "Indre-et-Loire",
+            "city_label": "Tours 37200",
+            "city": "Tours",
+            "zipcode": "37200",
+            "lat": 47.3621,
+            "lng": 0.70065,
+            "source": "city",
+            "provider": "here",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.70065,
+                        47.3621
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "65015512",
+            "user_id": "bc3545b0-dc7f-47bd-8090-406120bdf7f2",
+            "type": "private",
+            "name": "Adrien",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "item_model": "Creality R6",
+        "item_category": "Imprimante 3D",
+        "image_coherence": "Yes"
     },
-    {
-      "key": "estimated_parcel_size",
-      "value": "S",
-      "values": [
-        "S"
-      ],
-      "value_label": "S",
-      "generic": false
+    "2943701378": {
+        "list_id": 2943701378,
+        "first_publication_date": "2025-02-26 16:51:38",
+        "index_date": "2025-02-26 16:51:38",
+        "status": "active",
+        "category_id": "83",
+        "category_name": "Accessoires informatique",
+        "subject": "Imprimante 3D",
+        "body": "Imprimante 3D creality ender 3 v2 neo en très bon état vendu avec quelques rouleaux de filament et ustensiles \nAvec boîte d’origine très peux servi",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/accessoires_informatique/2943701378",
+        "price": [
+            285
+        ],
+        "price_cents": 28500,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-small",
+            "nb_images": 6,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "7515",
+                "values": [
+                    "7515"
+                ],
+                "value_label": "7515",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "M",
+                "values": [
+                    "M"
+                ],
+                "value_label": "M",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "computer_accessories_product",
+                "value": "printerandscanner",
+                "values": [
+                    "printerandscanner"
+                ],
+                "key_label": "Produit",
+                "value_label": "Imprimante & scanner",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "mondial_relay",
+                "values": [
+                    "mondial_relay",
+                    "shop2shop",
+                    "relais_colis_dropoff",
+                    "colissimo",
+                    "face_to_face"
+                ],
+                "value_label": "mondial_relay",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "7",
+            "region_name": "Centre",
+            "department_id": "37",
+            "department_name": "Indre-et-Loire",
+            "city_label": "Amboise 37400",
+            "city": "Amboise",
+            "zipcode": "37400",
+            "lat": 47.41285,
+            "lng": 0.98255,
+            "source": "city",
+            "provider": "here",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.98255,
+                        47.41285
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "80049788",
+            "user_id": "1adbdba2-3aad-4e0d-8e8a-904f603ce36b",
+            "type": "private",
+            "name": "Nico_37-400",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "item_model": "Creality Ender 3 V2 Neo",
+        "item_category": "Imprimante 3D",
+        "image_coherence": "Yes"
     },
-    {
-      "key": "is_bundleable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
+    "2942973052": {
+        "list_id": 2942973052,
+        "first_publication_date": "2025-02-25 12:24:00",
+        "index_date": "2025-02-25 12:24:00",
+        "status": "active",
+        "category_id": "88",
+        "category_name": "Loisirs créatifs",
+        "subject": "Imprimante 3d",
+        "body": "Imprimante 3d pro Anet Marlin\nIMPRIMANTE 3D ANET ET4 PRO\nImprimante 3d Anet et4 pro sous marlin, nouvelle carte mère programmée en allemagne (facture dispo). Fonctionne sous Marlin en francais.\nEN LIGNE DISPO\nPrusa\nBambu\nPas de livraison, trop risqué",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2942973052",
+        "price": [
+            70
+        ],
+        "price_cents": 7000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-small",
+            "nb_images": 9,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "rating_score",
+                "value": "0.99",
+                "values": [
+                    "0.99"
+                ],
+                "value_label": "0.99",
+                "generic": false
+            },
+            {
+                "key": "rating_count",
+                "value": "119",
+                "values": [
+                    "119"
+                ],
+                "value_label": "119",
+                "generic": false
+            },
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "7588",
+                "values": [
+                    "7588"
+                ],
+                "value_label": "7588",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "S",
+                "values": [
+                    "S"
+                ],
+                "value_label": "S",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "tresbonetat",
+                "values": [
+                    "tresbonetat"
+                ],
+                "key_label": "État",
+                "value_label": "Très bon état",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "face_to_face",
+                "values": [
+                    "face_to_face"
+                ],
+                "value_label": "face_to_face",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "7",
+            "region_name": "Centre",
+            "department_id": "37",
+            "department_name": "Indre-et-Loire",
+            "city_label": "Saint-Roch 37390",
+            "city": "Saint-Roch",
+            "zipcode": "37390",
+            "lat": 47.44544,
+            "lng": 0.57838,
+            "source": "city",
+            "provider": "here",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        0.57838,
+                        47.44544
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "13379924",
+            "user_id": "65121b4d-1d30-4494-a750-f115e166317c",
+            "type": "private",
+            "name": "Jst",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "item_model": "Anet ET4 Pro",
+        "item_category": "Imprimante 3D",
+        "image_coherence": "Yes"
     },
-    {
-      "key": "purchase_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "negotiation_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "country_isocode3166",
-      "value": "FR",
-      "values": [
-        "FR"
-      ],
-      "value_label": "FR",
-      "generic": false
-    },
-    {
-      "key": "condition",
-      "value": "tresbonetat",
-      "values": [
-        "tresbonetat"
-      ],
-      "key_label": "État",
-      "value_label": "Très bon état",
-      "generic": true
-    },
-    {
-      "key": "shipping_type",
-      "value": "mondial_relay",
-      "values": [
-        "mondial_relay",
-        "shop2shop",
-        "relais_colis_dropoff",
-        "face_to_face"
-      ],
-      "value_label": "mondial_relay",
-      "generic": false
-    },
-    {
-      "key": "shippable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "is_import",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    },
-    {
-      "key": "payment_methods",
-      "value": "installments3x",
-      "values": [
-        "installments3x",
-        "installments4x"
-      ],
-      "value_label": "installments3x",
-      "generic": false
+    "2950715817": {
+        "list_id": 2950715817,
+        "first_publication_date": "2025-03-10 18:19:19",
+        "index_date": "2025-03-10 18:19:19",
+        "status": "active",
+        "category_id": "88",
+        "category_name": "Loisirs créatifs",
+        "subject": "Imprimante, 3D wanahao",
+        "body": "Wanahao D12 230 dual color avec tête pour mieux refroidir pour mettre moins de support deux plateaux, tout neuf, écran, neuf driver neuf et nappe neuf",
+        "brand": "leboncoin",
+        "ad_type": "offer",
+        "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2950715817",
+        "price": [
+            230
+        ],
+        "price_cents": 23000,
+        "images": {
+            "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-thumb",
+            "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-small",
+            "nb_images": 3,
+            "urls": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-image",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-image"
+            ],
+            "urls_thumb": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-thumb",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-thumb"
+            ],
+            "urls_large": [
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-large",
+                "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-large"
+            ]
+        },
+        "attributes": [
+            {
+                "key": "rating_score",
+                "value": "0.96",
+                "values": [
+                    "0.96"
+                ],
+                "value_label": "0.96",
+                "generic": false
+            },
+            {
+                "key": "rating_count",
+                "value": "22",
+                "values": [
+                    "22"
+                ],
+                "value_label": "22",
+                "generic": false
+            },
+            {
+                "key": "profile_picture_url",
+                "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small",
+                "values": [
+                    "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small"
+                ],
+                "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_weight",
+                "value": "5167",
+                "values": [
+                    "5167"
+                ],
+                "value_label": "5167",
+                "generic": false
+            },
+            {
+                "key": "estimated_parcel_size",
+                "value": "S",
+                "values": [
+                    "S"
+                ],
+                "value_label": "S",
+                "generic": false
+            },
+            {
+                "key": "is_bundleable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "purchase_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "negotiation_cta_visible",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "country_isocode3166",
+                "value": "FR",
+                "values": [
+                    "FR"
+                ],
+                "value_label": "FR",
+                "generic": false
+            },
+            {
+                "key": "condition",
+                "value": "etatneuf",
+                "values": [
+                    "etatneuf"
+                ],
+                "key_label": "État",
+                "value_label": "État neuf",
+                "generic": true
+            },
+            {
+                "key": "shipping_type",
+                "value": "mondial_relay",
+                "values": [
+                    "mondial_relay",
+                    "shop2shop",
+                    "relais_colis_dropoff",
+                    "colissimo",
+                    "face_to_face"
+                ],
+                "value_label": "mondial_relay",
+                "generic": false
+            },
+            {
+                "key": "shippable",
+                "value": "true",
+                "values": [
+                    "true"
+                ],
+                "value_label": "true",
+                "generic": false
+            },
+            {
+                "key": "is_import",
+                "value": "false",
+                "values": [
+                    "false"
+                ],
+                "value_label": "false",
+                "generic": false
+            },
+            {
+                "key": "payment_methods",
+                "value": "installments3x",
+                "values": [
+                    "installments3x",
+                    "installments4x"
+                ],
+                "value_label": "installments3x",
+                "generic": false
+            }
+        ],
+        "location": {
+            "country_id": "FR",
+            "region_id": "7",
+            "region_name": "Centre",
+            "department_id": "41",
+            "department_name": "Loir-et-Cher",
+            "city_label": "Saint-Aignan 41110",
+            "city": "Saint-Aignan",
+            "zipcode": "41110",
+            "lat": 47.27015,
+            "lng": 1.37627,
+            "source": "city",
+            "provider": "here",
+            "is_shape": true,
+            "feature": {
+                "type": "Feature",
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [
+                        1.37627,
+                        47.27015
+                    ]
+                },
+                "properties": null
+            }
+        },
+        "owner": {
+            "store_id": "12233887",
+            "user_id": "2e06ddf8-dbfb-4e2b-b609-a2788f7d5b98",
+            "type": "private",
+            "name": "Fred",
+            "no_salesmen": true,
+            "activity_sector": ""
+        },
+        "options": {
+            "has_option": false,
+            "booster": false,
+            "photosup": false,
+            "urgent": false,
+            "gallery": false,
+            "sub_toplist": false,
+            "continuous_top_ads": false,
+            "highlight": false
+        },
+        "has_phone": false,
+        "similar": null,
+        "counters": {},
+        "item_model": "Wanahao D12 230",
+        "item_category": "Imprimante 3D",
+        "image_coherence": "Yes"
     }
-  ],
-  "location": {
-    "country_id": "FR",
-    "region_id": "7",
-    "region_name": "Centre",
-    "department_id": "37",
-    "department_name": "Indre-et-Loire",
-    "city_label": "La Ville-aux-Dames 37700",
-    "city": "La Ville-aux-Dames",
-    "zipcode": "37700",
-    "lat": 47.39629,
-    "lng": 0.76326,
-    "source": "city",
-    "provider": "here",
-    "is_shape": true,
-    "feature": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.76326,
-          47.39629
-        ]
-      },
-      "properties": null
-    }
-  },
-  "owner": {
-    "store_id": "70437507",
-    "user_id": "a0180a16-6854-448a-9d45-10f84dc7dd6d",
-    "type": "private",
-    "name": "ourida",
-    "no_salesmen": true,
-    "activity_sector": ""
-  },
-  "options": {
-    "has_option": false,
-    "booster": false,
-    "photosup": false,
-    "urgent": false,
-    "gallery": false,
-    "sub_toplist": false,
-    "continuous_top_ads": false,
-    "highlight": false
-  },
-  "has_phone": false,
-  "similar": null,
-  "counters": {},
-  "item_model": "Unknown",
-  "item_category": "Imprimante 3D",
-  "image_coherence": "Unsure"
-},
-{
-  "list_id": 2954494789,
-  "first_publication_date": "2025-03-17 08:28:01",
-  "index_date": "2025-03-17 08:28:01",
-  "status": "active",
-  "category_id": "83",
-  "category_name": "Accessoires informatique",
-  "subject": "Imprimante 3D",
-  "body": "À vendre : Imprimante 3D Creality R6 – Très bon état 🖨️✨\n\nJe vends une imprimante 3D Creality R6, en très bon état et très peu utilisée. Elle est toujours dans son carton d’origine avec tous ses accessoires, y compris la documentation et une clé USB neuve. Je l'ai préparé pour pouvoir être expédiée dans problème. A réception, il n'y aura qu'à faire l'étalonnage à l'aide d'une feuille de papier (type papier d'impression A4).\n\n📌 Détails :\n\n    Modèle : Creality R6\n    État : Très bon, peu utilisée\n    Accessoires : Carton d'origine, documentation et clé USB neuve\n    Prix : 50 €\n\nIdéale pour débutants comme pour makers expérimentés, cette imprimante offre une excellente précision et une facilité d’utilisation.\n\n📩 Me contacter pour plus d’informations ou pour convenir d’un retrait/livraison.",
-  "brand": "leboncoin",
-  "ad_type": "offer",
-  "url": "https://www.leboncoin.fr/ad/accessoires_informatique/2954494789",
-  "price": [
-    50
-  ],
-  "price_cents": 5000,
-  "images": {
-    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-thumb",
-    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-small",
-    "nb_images": 2,
-    "urls": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-image"
-    ],
-    "urls_thumb": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-thumb"
-    ],
-    "urls_large": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/6a/ce/96/6ace968a99ac212b4a60a71a96d13c3298b92f2d.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/47/45/99/474599a840d5aef323f33b91d4231ed2834fb411.jpg?rule=ad-large"
-    ]
-  },
-  "attributes": [
-    {
-      "key": "rating_score",
-      "value": "1",
-      "values": [
-        "1"
-      ],
-      "value_label": "1",
-      "generic": false
-    },
-    {
-      "key": "rating_count",
-      "value": "2",
-      "values": [
-        "2"
-      ],
-      "value_label": "2",
-      "generic": false
-    },
-    {
-      "key": "profile_picture_url",
-      "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small",
-      "values": [
-        "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small"
-      ],
-      "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/c7889c8f-66ce-50b7-8621-400a271d7acc?rule=pp-small",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_weight",
-      "value": "7492",
-      "values": [
-        "7492"
-      ],
-      "value_label": "7492",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_size",
-      "value": "M",
-      "values": [
-        "M"
-      ],
-      "value_label": "M",
-      "generic": false
-    },
-    {
-      "key": "is_bundleable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "purchase_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "negotiation_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "country_isocode3166",
-      "value": "FR",
-      "values": [
-        "FR"
-      ],
-      "value_label": "FR",
-      "generic": false
-    },
-    {
-      "key": "condition",
-      "value": "tresbonetat",
-      "values": [
-        "tresbonetat"
-      ],
-      "key_label": "État",
-      "value_label": "Très bon état",
-      "generic": true
-    },
-    {
-      "key": "computer_accessories_product",
-      "value": "printerandscanner",
-      "values": [
-        "printerandscanner"
-      ],
-      "key_label": "Produit",
-      "value_label": "Imprimante & scanner",
-      "generic": true
-    },
-    {
-      "key": "shipping_type",
-      "value": "mondial_relay",
-      "values": [
-        "mondial_relay",
-        "shop2shop",
-        "relais_colis_dropoff",
-        "colissimo",
-        "face_to_face"
-      ],
-      "value_label": "mondial_relay",
-      "generic": false
-    },
-    {
-      "key": "shippable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "is_import",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    },
-    {
-      "key": "old_price",
-      "value": "60",
-      "values": [
-        "60"
-      ],
-      "value_label": "60",
-      "generic": false
-    }
-  ],
-  "location": {
-    "country_id": "FR",
-    "region_id": "7",
-    "region_name": "Centre",
-    "department_id": "37",
-    "department_name": "Indre-et-Loire",
-    "city_label": "Tours 37200",
-    "city": "Tours",
-    "zipcode": "37200",
-    "lat": 47.3621,
-    "lng": 0.70065,
-    "source": "city",
-    "provider": "here",
-    "is_shape": true,
-    "feature": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.70065,
-          47.3621
-        ]
-      },
-      "properties": null
-    }
-  },
-  "owner": {
-    "store_id": "65015512",
-    "user_id": "bc3545b0-dc7f-47bd-8090-406120bdf7f2",
-    "type": "private",
-    "name": "Adrien",
-    "no_salesmen": true,
-    "activity_sector": ""
-  },
-  "options": {
-    "has_option": false,
-    "booster": false,
-    "photosup": false,
-    "urgent": false,
-    "gallery": false,
-    "sub_toplist": false,
-    "continuous_top_ads": false,
-    "highlight": false
-  },
-  "has_phone": false,
-  "similar": null,
-  "counters": {},
-  "item_model": "Unknown",
-  "item_category": "Unknown",
-  "image_coherence": "Unsure"
-},
-{
-  "list_id": 2943701378,
-  "first_publication_date": "2025-02-26 16:51:38",
-  "index_date": "2025-02-26 16:51:38",
-  "status": "active",
-  "category_id": "83",
-  "category_name": "Accessoires informatique",
-  "subject": "Imprimante 3D",
-  "body": "Imprimante 3D creality ender 3 v2 neo en très bon état vendu avec quelques rouleaux de filament et ustensiles \nAvec boîte d’origine très peux servi",
-  "brand": "leboncoin",
-  "ad_type": "offer",
-  "url": "https://www.leboncoin.fr/ad/accessoires_informatique/2943701378",
-  "price": [
-    285
-  ],
-  "price_cents": 28500,
-  "images": {
-    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-thumb",
-    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-small",
-    "nb_images": 6,
-    "urls": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-image"
-    ],
-    "urls_thumb": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-thumb"
-    ],
-    "urls_large": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a7/8c/db/a78cdb313de955bfd02a12185f6103f5682b2a2d.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/a6/fe/4f/a6fe4f2bd78706c32eb723df3725b140c1575d39.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/2e/3e/89/2e3e897a246f5fb419992d11c9466d9c8ce67c07.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/27/a7/25/27a725876374bddc4f83604f556c1748f0db8968.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5a/ff/61/5aff61e411eacf09c11470958b75209e1974cbee.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/75/36/dc/7536dcdeff36385874a0caae95bdba73454e553f.jpg?rule=ad-large"
-    ]
-  },
-  "attributes": [
-    {
-      "key": "profile_picture_url",
-      "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small",
-      "values": [
-        "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small"
-      ],
-      "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/348457c7-6e27-58ce-a197-1449071b8448?rule=pp-small",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_weight",
-      "value": "7515",
-      "values": [
-        "7515"
-      ],
-      "value_label": "7515",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_size",
-      "value": "M",
-      "values": [
-        "M"
-      ],
-      "value_label": "M",
-      "generic": false
-    },
-    {
-      "key": "is_bundleable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "purchase_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "negotiation_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "country_isocode3166",
-      "value": "FR",
-      "values": [
-        "FR"
-      ],
-      "value_label": "FR",
-      "generic": false
-    },
-    {
-      "key": "condition",
-      "value": "tresbonetat",
-      "values": [
-        "tresbonetat"
-      ],
-      "key_label": "État",
-      "value_label": "Très bon état",
-      "generic": true
-    },
-    {
-      "key": "computer_accessories_product",
-      "value": "printerandscanner",
-      "values": [
-        "printerandscanner"
-      ],
-      "key_label": "Produit",
-      "value_label": "Imprimante & scanner",
-      "generic": true
-    },
-    {
-      "key": "shipping_type",
-      "value": "mondial_relay",
-      "values": [
-        "mondial_relay",
-        "shop2shop",
-        "relais_colis_dropoff",
-        "colissimo",
-        "face_to_face"
-      ],
-      "value_label": "mondial_relay",
-      "generic": false
-    },
-    {
-      "key": "shippable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "is_import",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    },
-    {
-      "key": "payment_methods",
-      "value": "installments3x",
-      "values": [
-        "installments3x",
-        "installments4x"
-      ],
-      "value_label": "installments3x",
-      "generic": false
-    }
-  ],
-  "location": {
-    "country_id": "FR",
-    "region_id": "7",
-    "region_name": "Centre",
-    "department_id": "37",
-    "department_name": "Indre-et-Loire",
-    "city_label": "Amboise 37400",
-    "city": "Amboise",
-    "zipcode": "37400",
-    "lat": 47.41285,
-    "lng": 0.98255,
-    "source": "city",
-    "provider": "here",
-    "is_shape": true,
-    "feature": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.98255,
-          47.41285
-        ]
-      },
-      "properties": null
-    }
-  },
-  "owner": {
-    "store_id": "80049788",
-    "user_id": "1adbdba2-3aad-4e0d-8e8a-904f603ce36b",
-    "type": "private",
-    "name": "Nico_37-400",
-    "no_salesmen": true,
-    "activity_sector": ""
-  },
-  "options": {
-    "has_option": false,
-    "booster": false,
-    "photosup": false,
-    "urgent": false,
-    "gallery": false,
-    "sub_toplist": false,
-    "continuous_top_ads": false,
-    "highlight": false
-  },
-  "has_phone": false,
-  "similar": null,
-  "counters": {},
-  "item_model": "Unknown",
-  "item_category": "Unknown",
-  "image_coherence": "Unsure"
-},
-{
-  "list_id": 2942973052,
-  "first_publication_date": "2025-02-25 12:24:00",
-  "index_date": "2025-02-25 12:24:00",
-  "status": "active",
-  "category_id": "88",
-  "category_name": "Loisirs créatifs",
-  "subject": "Imprimante 3d",
-  "body": "Imprimante 3d pro Anet Marlin\nIMPRIMANTE 3D ANET ET4 PRO\nImprimante 3d Anet et4 pro sous marlin, nouvelle carte mère programmée en allemagne (facture dispo). Fonctionne sous Marlin en francais.\nEN LIGNE DISPO\nPrusa\nBambu\nPas de livraison, trop risqué",
-  "brand": "leboncoin",
-  "ad_type": "offer",
-  "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2942973052",
-  "price": [
-    70
-  ],
-  "price_cents": 7000,
-  "images": {
-    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-thumb",
-    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-small",
-    "nb_images": 9,
-    "urls": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-image"
-    ],
-    "urls_thumb": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-thumb"
-    ],
-    "urls_large": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/ff/4f/85/ff4f85aaa6392c69ef47b69dff0f781fa8aaa56c.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/c9/79/cc/c979cc319d18873d6d6b7d75d86545267d309c0c.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/ad/ab/f5adabe8e50b6df255acbf2429b922738fd7c5bf.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1b/fe/cb/1bfecbef94109745a790da7ecea7d7b5c3ef8164.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/93/9a/08/939a08ee4cd9e6a25b5464f05dbe7d9fe1257fe8.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/55/b3/9b/55b39b9c1f92315772aa155bb694f81d73367b50.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/5b/25/8a/5b258a9bff0a17b16d03c7fa2e35e0045016c48b.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/17/25/c3/1725c3483e24804dde48a1ab11539444910ae3b7.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/15/19/9d/15199d66f80d49a48a9e2db39b0c5128d79bba5e.jpg?rule=ad-large"
-    ]
-  },
-  "attributes": [
-    {
-      "key": "rating_score",
-      "value": "0.99",
-      "values": [
-        "0.99"
-      ],
-      "value_label": "0.99",
-      "generic": false
-    },
-    {
-      "key": "rating_count",
-      "value": "119",
-      "values": [
-        "119"
-      ],
-      "value_label": "119",
-      "generic": false
-    },
-    {
-      "key": "profile_picture_url",
-      "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small",
-      "values": [
-        "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small"
-      ],
-      "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/e0e3cf51-9b19-5b0d-95ab-86cb8624f6b8?rule=pp-small",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_weight",
-      "value": "7588",
-      "values": [
-        "7588"
-      ],
-      "value_label": "7588",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_size",
-      "value": "S",
-      "values": [
-        "S"
-      ],
-      "value_label": "S",
-      "generic": false
-    },
-    {
-      "key": "is_bundleable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "purchase_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "negotiation_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "country_isocode3166",
-      "value": "FR",
-      "values": [
-        "FR"
-      ],
-      "value_label": "FR",
-      "generic": false
-    },
-    {
-      "key": "condition",
-      "value": "tresbonetat",
-      "values": [
-        "tresbonetat"
-      ],
-      "key_label": "État",
-      "value_label": "Très bon état",
-      "generic": true
-    },
-    {
-      "key": "shipping_type",
-      "value": "face_to_face",
-      "values": [
-        "face_to_face"
-      ],
-      "value_label": "face_to_face",
-      "generic": false
-    },
-    {
-      "key": "shippable",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    },
-    {
-      "key": "is_import",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    }
-  ],
-  "location": {
-    "country_id": "FR",
-    "region_id": "7",
-    "region_name": "Centre",
-    "department_id": "37",
-    "department_name": "Indre-et-Loire",
-    "city_label": "Saint-Roch 37390",
-    "city": "Saint-Roch",
-    "zipcode": "37390",
-    "lat": 47.44544,
-    "lng": 0.57838,
-    "source": "city",
-    "provider": "here",
-    "is_shape": true,
-    "feature": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          0.57838,
-          47.44544
-        ]
-      },
-      "properties": null
-    }
-  },
-  "owner": {
-    "store_id": "13379924",
-    "user_id": "65121b4d-1d30-4494-a750-f115e166317c",
-    "type": "private",
-    "name": "Jst",
-    "no_salesmen": true,
-    "activity_sector": ""
-  },
-  "options": {
-    "has_option": false,
-    "booster": false,
-    "photosup": false,
-    "urgent": false,
-    "gallery": false,
-    "sub_toplist": false,
-    "continuous_top_ads": false,
-    "highlight": false
-  },
-  "has_phone": false,
-  "similar": null,
-  "counters": {},
-  "item_model": "Unknown",
-  "item_category": "Unknown",
-  "image_coherence": "Unsure"
-},
-{
-  "list_id": 2950715817,
-  "first_publication_date": "2025-03-10 18:19:19",
-  "index_date": "2025-03-10 18:19:19",
-  "status": "active",
-  "category_id": "88",
-  "category_name": "Loisirs créatifs",
-  "subject": "Imprimante, 3D wanahao",
-  "body": "Wanahao D12 230 dual color avec tête pour mieux refroidir pour mettre moins de support deux plateaux, tout neuf, écran, neuf driver neuf et nappe neuf",
-  "brand": "leboncoin",
-  "ad_type": "offer",
-  "url": "https://www.leboncoin.fr/ad/loisirs_creatifs/2950715817",
-  "price": [
-    230
-  ],
-  "price_cents": 23000,
-  "images": {
-    "thumb_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-thumb",
-    "small_url": "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-small",
-    "nb_images": 3,
-    "urls": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-image",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-image"
-    ],
-    "urls_thumb": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-thumb",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-thumb"
-    ],
-    "urls_large": [
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f5/9a/a2/f59aa2d9fa72a842046dfbc28ce4c41763e7b324.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/f0/b0/56/f0b0562777cc2c8dfd53fb77dc0b6544887658d0.jpg?rule=ad-large",
-      "https://img.leboncoin.fr/api/v1/lbcpb1/images/1d/fa/d9/1dfad98f15b63f9223ea1246a03d4af014260ea4.jpg?rule=ad-large"
-    ]
-  },
-  "attributes": [
-    {
-      "key": "rating_score",
-      "value": "0.96",
-      "values": [
-        "0.96"
-      ],
-      "value_label": "0.96",
-      "generic": false
-    },
-    {
-      "key": "rating_count",
-      "value": "22",
-      "values": [
-        "22"
-      ],
-      "value_label": "22",
-      "generic": false
-    },
-    {
-      "key": "profile_picture_url",
-      "value": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small",
-      "values": [
-        "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small"
-      ],
-      "value_label": "https://img.leboncoin.fr/api/v1/tenants/9a6387a1-6259-4f2c-a887-7e67f23dd4cb/domains/20bda58f-d650-462e-a72a-a5a7ecf2bf88/buckets/21d2b0bc-e54c-4b64-a30b-89127b18b785/images/profile/pictures/default/dbeba3da-89a0-56fd-823d-5b39f233c9c9?rule=pp-small",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_weight",
-      "value": "5167",
-      "values": [
-        "5167"
-      ],
-      "value_label": "5167",
-      "generic": false
-    },
-    {
-      "key": "estimated_parcel_size",
-      "value": "S",
-      "values": [
-        "S"
-      ],
-      "value_label": "S",
-      "generic": false
-    },
-    {
-      "key": "is_bundleable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "purchase_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "negotiation_cta_visible",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "country_isocode3166",
-      "value": "FR",
-      "values": [
-        "FR"
-      ],
-      "value_label": "FR",
-      "generic": false
-    },
-    {
-      "key": "condition",
-      "value": "etatneuf",
-      "values": [
-        "etatneuf"
-      ],
-      "key_label": "État",
-      "value_label": "État neuf",
-      "generic": true
-    },
-    {
-      "key": "shipping_type",
-      "value": "mondial_relay",
-      "values": [
-        "mondial_relay",
-        "shop2shop",
-        "relais_colis_dropoff",
-        "colissimo",
-        "face_to_face"
-      ],
-      "value_label": "mondial_relay",
-      "generic": false
-    },
-    {
-      "key": "shippable",
-      "value": "true",
-      "values": [
-        "true"
-      ],
-      "value_label": "true",
-      "generic": false
-    },
-    {
-      "key": "is_import",
-      "value": "false",
-      "values": [
-        "false"
-      ],
-      "value_label": "false",
-      "generic": false
-    },
-    {
-      "key": "payment_methods",
-      "value": "installments3x",
-      "values": [
-        "installments3x",
-        "installments4x"
-      ],
-      "value_label": "installments3x",
-      "generic": false
-    }
-  ],
-  "location": {
-    "country_id": "FR",
-    "region_id": "7",
-    "region_name": "Centre",
-    "department_id": "41",
-    "department_name": "Loir-et-Cher",
-    "city_label": "Saint-Aignan 41110",
-    "city": "Saint-Aignan",
-    "zipcode": "41110",
-    "lat": 47.27015,
-    "lng": 1.37627,
-    "source": "city",
-    "provider": "here",
-    "is_shape": true,
-    "feature": {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          1.37627,
-          47.27015
-        ]
-      },
-      "properties": null
-    }
-  },
-  "owner": {
-    "store_id": "12233887",
-    "user_id": "2e06ddf8-dbfb-4e2b-b609-a2788f7d5b98",
-    "type": "private",
-    "name": "Fred",
-    "no_salesmen": true,
-    "activity_sector": ""
-  },
-  "options": {
-    "has_option": false,
-    "booster": false,
-    "photosup": false,
-    "urgent": false,
-    "gallery": false,
-    "sub_toplist": false,
-    "continuous_top_ads": false,
-    "highlight": false
-  },
-  "has_phone": false,
-  "similar": null,
-  "counters": {},
-  "item_model": "Unknown",
-  "item_category": "Unknown",
-  "image_coherence": "Unsure"
 }
-]
