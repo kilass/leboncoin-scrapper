@@ -36,17 +36,13 @@ Le projet **Leboncoin Scrapper** vise à automatiser l’extraction et l’analy
 1.  **Cloner le dépôt** :
 
 ```bash
-
 git clone https://github.com/kilass/leboncoin-scrapper.git
-
 cd leboncoin-scrapper
-
-2.  **Télécharger Ollamat** :
+```
+2.  **Télécharger Ollama** :
 
 ```bash
-
 git clone https://github.com/kilass/leboncoin-scrapper.git
-
 cd leboncoin-scrapper
 ```
 2.  **Télécharger Ollama** :
