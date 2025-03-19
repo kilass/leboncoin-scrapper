@@ -2,37 +2,48 @@ import json
 import argparse
 import logging
 import re
-import ollama  # Importation explicite du module ollama
+import ollama
 
 # Configuration du logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
-client = ollama.Client(host='http://localhost:11434')  # Utilisation correcte de ollama.Client
+client = ollama.Client(host='http://localhost:11434')
 
 def clean_value(value):
     """Nettoie les caractères indésirables et les réflexions du LLM."""
-    # Supprime les caractères de mise en forme
     value = re.sub(r'[\*`]', '', value).strip()
-    # Supprime les réflexions entre parenthèses ou après "Raison :"
     value = re.sub(r'\s*\(.*?\)|\s*Raison\s*:.*$', '', value).strip()
     return value
 
+def write_incremental_json(output_file, refined_ads):
+    """Écrit les données raffinées dans le fichier JSON de manière incrémentale."""
+    with open(output_file, 'w', encoding='utf-8') as f:
+        json.dump(refined_ads, f, ensure_ascii=False, indent=4)
+
 def refine_json(input_file, output_file, limit=None):
+    # Charger les données brutes
     with open(input_file, 'r', encoding='utf-8') as f:
         ads = json.load(f)
     
-    refined_ads = {}
+    # Charger les données existantes dans le fichier de sortie, s'il existe
+    try:
+        with open(output_file, 'r', encoding='utf-8') as f:
+            refined_ads = json.load(f)
+    except (FileNotFoundError, json.JSONDecodeError):
+        refined_ads = {}
+
     for i, ad in enumerate(ads):
         if limit is not None and i >= limit:
             break
         
-        ad_id = ad['list_id']
+        ad_id = str(ad['list_id'])
         logging.info(f"Processing ad {ad_id} ({i+1}/{len(ads)})")
         
-        # Mapping des champs pour le prompt
-        title = ad['subject']
-        description = ad['body']
-        image_url = ad['images']['urls'][0] if ad['images']['urls'] else "No image available"
+        # Mapping des champs pour le prompt avec gestion des cas manquants
+        title = ad.get('subject', 'Titre inconnu')
+        description = ad.get('body', 'Description inconnue')
+        images = ad.get('images', {})
+        image_url = images.get('urls', [None])[0] if images.get('urls') else "No image available"
         
         prompt = f"""
         Analyse cette annonce Leboncoin :
@@ -59,10 +70,10 @@ def refine_json(input_file, output_file, limit=None):
         refined_data = {'item_model': 'Unknown', 'item_category': 'Unknown', 'image_coherence': 'No'}
         for line in lines:
             line = line.strip()
-            if not line or ':' not in line:  # Ignore les lignes vides ou sans format clé:valeur
+            if not line or ':' not in line:
                 continue
             key, value = line.split(':', 1)
-            value = clean_value(value)  # Nettoyage des valeurs
+            value = clean_value(value)
             if 'item_model' in key.lower():
                 refined_data['item_model'] = value if value else 'Unknown'
             elif 'item_category' in key.lower():
@@ -76,10 +87,12 @@ def refine_json(input_file, output_file, limit=None):
         refined_ad = ad.copy()
         refined_ad.update(refined_data)
         refined_ads[ad_id] = refined_ad
+        
+        # Écriture incrémentale dans le fichier JSON
+        write_incremental_json(output_file, refined_ads)
+        logging.info(f"Ad {ad_id} - Données enregistrées dans {output_file}")
     
-    with open(output_file, 'w', encoding='utf-8') as f:
-        json.dump(refined_ads, f, ensure_ascii=False, indent=4)
-    logging.info(f"Données raffinées enregistrées dans {output_file}")
+    logging.info(f"Traitement terminé - Données finales enregistrées dans {output_file}")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Raffine les annonces Leboncoin avec Ollama")
