@@ -15,11 +15,27 @@ with open(har_file_path, "r", encoding="utf-8") as f:
 har_parser = HarParser(har_data)
 ads_data = []
 
+# Champs principaux à garder
+wanted_fields = [
+    "list_id", "first_publication_date", "index_date", "status", "category_id",
+    "category_name", "subject", "body", "url", "price", "price_cents", "old_price",
+    "images", "location", "owner", "has_phone", "options"
+]
+
+# Champs à extraire de "attributes"
+attribute_fields = {
+    "condition": "condition",
+    "shipping_type": "shipping_type",
+    "shippable": "shippable",
+    "estimated_parcel_weight": "estimated_parcel_weight",
+    "rating_score": "rating_score",
+    "rating_count": "rating_count"
+}
+
 # Fonction pour tenter de décompresser une réponse
 def decompress_response(text, encoding):
     if not text:
         return None
-    # Vérifier si le texte semble déjà décompressé (commence par { ou [)
     if text.strip().startswith(("{", "[")):
         return text
     try:
@@ -50,28 +66,22 @@ for page in har_parser.pages:
             print(f"Analyse de {entry.request.url}")
             response_text = entry.response.text
 
-            # Vérifier si la réponse est vide
             if not response_text:
                 print(f"Réponse vide pour {entry.request.url}")
                 with open("erreurs.log", "a", encoding="utf-8") as log_file:
                     log_file.write(f"Réponse vide : {entry.request.url}\n")
                 continue
 
-            # Vérifier l'encodage dans les headers
             content_encoding = None
             for header in entry.response.headers:
                 if header["name"].lower() == "content-encoding":
                     content_encoding = header["value"].lower()
                     break
 
-            # Décompresser si nécessaire
             if content_encoding:
                 response_text = decompress_response(response_text, content_encoding)
 
-            # Vérifier si le contenu est potentiellement en base64
             is_base64 = is_base64_like(response_text)
-
-            # Si base64, décoder avant parsing
             if is_base64:
                 try:
                     print(f"Décodage base64 pour {entry.request.url}")
@@ -83,12 +93,24 @@ for page in har_parser.pages:
                         log_file.write(f"URL: {entry.request.url}\nRéponse brute: {response_text}\nErreur: {e}\n\n")
                     continue
 
-            # Tenter de parser le JSON
             try:
                 response_json = json.loads(response_text)
                 if "ads" in response_json:
-                    print(f"Requêtes trouvée avec 'ads' : {entry.request.url}, {len(response_json['ads'])} annonces")
-                    ads_data.extend(response_json["ads"])
+                    filtered_ads = []
+                    for ad in response_json["ads"]:
+                        # Filtrer les champs principaux
+                        filtered_ad = {key: ad[key] for key in wanted_fields if key in ad}
+
+                        # Extraire les champs spécifiques de "attributes"
+                        if "attributes" in ad:
+                            for attr in ad["attributes"]:
+                                key = attr.get("key")
+                                if key in attribute_fields:
+                                    filtered_ad[attribute_fields[key]] = attr.get("value")
+
+                        filtered_ads.append(filtered_ad)
+                    print(f"Requêtes trouvée avec 'ads' : {entry.request.url}, {len(filtered_ads)} annonces")
+                    ads_data.extend(filtered_ads)
                 else:
                     print(f"Requêtes ignorée (pas de 'ads') : {entry.request.url}")
             except json.JSONDecodeError as e:
@@ -103,7 +125,7 @@ if ads_data:
         json.dump(ads_data, f, ensure_ascii=False, indent=2)
     print("Données exportées en JSON : annonces_leboncoin.json")
 
-    # Collecter tous les champs possibles pour le CSV
+    # Collecter tous les champs pour le CSV
     all_fields = set()
     for ad in ads_data:
         all_fields.update(ad.keys())
