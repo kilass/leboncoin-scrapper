@@ -25,6 +25,10 @@ def refine_json(input_file, output_file, limit=None):
     with open(input_file, 'r', encoding='utf-8') as f:
         ads = json.load(f)
     
+    # Charger le mapping des catégories
+    with open('category_mapping.json', 'r', encoding='utf-8') as f:
+        category_mapping = json.load(f)['categories']
+    
     # Charger les données existantes dans le fichier de sortie, s'il existe
     try:
         with open(output_file, 'r', encoding='utf-8') as f:
@@ -38,22 +42,29 @@ def refine_json(input_file, output_file, limit=None):
         
         ad_id = str(ad['list_id'])
         logging.info(f"Processing ad {ad_id} ({i+1}/{len(ads)})")
-        
+
         # Mapping des champs pour le prompt avec gestion des cas manquants
         title = ad.get('subject', 'Titre inconnu')
         description = ad.get('body', 'Description inconnue')
         images = ad.get('images', {})
         image_url = images.get('urls', [None])[0] if images.get('urls') else "No image available"
-        
+        category_id = ad.get('category_id', 'N/A')
+        category_name = ad.get('category_name', 'N/A')
+
+        # Prompt mis à jour avec le mapping des catégories
         prompt = f"""
         Analyse cette annonce Leboncoin :
         Titre : {title}
         Description : {description}
         URL de l'image : {image_url}
+        Catégorie de l'annonce : ID={category_id}, Nom={category_name}
+
+        Voici les catégories disponibles avec leurs objets typiques :
+        {json.dumps(category_mapping, ensure_ascii=False, indent=2)}
 
         Fournis les informations suivantes :
         - item_model : le modèle exact de l'objet (ex. "Creality Ender 3") ou "Unknown" si non identifiable
-        - item_category : la catégorie de l'objet (ex. "Imprimante 3D", "Filament", "Accessoire") ou "Unknown" si non identifiable
+        - item_category : la catégorie la plus appropriée basée sur la catégorie de l’annonce (ID={category_id}) et les objets typiques dans le mapping ; si elle diffère de la catégorie de l’annonce, choisis la plus pertinente
         - image_coherence : "Oui" si l'image correspond au titre/description, "Non" sinon
         
         Formate ta réponse exactement comme suit :
