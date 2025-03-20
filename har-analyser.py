@@ -7,7 +7,7 @@ import zlib
 import brotli
 
 # Charger le fichier HAR depuis le disque
-har_file_path = "www.leboncoin.fr.har"  # Remplace par le chemin réel de ton fichier HAR
+har_file_path = "www.leboncoin.fr_Archive [25-03-20 18-27-00].har"  # Remplace par le chemin réel de ton fichier HAR
 with open(har_file_path, "r", encoding="utf-8") as f:
     har_data = json.load(f)
 
@@ -25,17 +25,22 @@ def decompress_response(text, encoding):
     if text.strip().startswith(("{", "[")):
         return text
     try:
-        if encoding == "gzip":
-            return gzip.decompress(text.encode()).decode("utf-8")
-        elif encoding == "deflate":
-            return zlib.decompress(text.encode()).decode("utf-8")
-        elif encoding == "br":
-            return brotli.decompress(text.encode()).decode("utf-8")
+        # Si c’est du base64, décoder d’abord
+        if is_base64_like(text):
+            text = base64.b64decode(text)
         else:
-            return text
+            text = text.encode("utf-8")  # Sinon, encoder en bytes
+        if encoding == "gzip":
+            return gzip.decompress(text).decode("utf-8")
+        elif encoding == "deflate":
+            return zlib.decompress(text).decode("utf-8")
+        elif encoding == "br":
+            return brotli.decompress(text).decode("utf-8")
+        else:
+            return text.decode("utf-8") if isinstance(text, bytes) else text
     except Exception as e:
         print(f"Erreur de décompression ({encoding}) : {e}")
-        return text
+        return None
 
 # Fonction pour vérifier si une chaîne ressemble à du base64
 def is_base64_like(text):
@@ -50,34 +55,41 @@ for page in har_parser.pages:
     for entry in page.entries:
         if "finder/search" in entry.request.url:
             print(f"Analyse de {entry.request.url}")
-            response_text = entry.response.text
-
-            if not response_text:
-                print(f"Réponse vide pour {entry.request.url}")
+            
+            # Récupérer directement le contenu brut
+            content = entry.response.raw_entry.get("content", {})
+            if "text" not in content or not content["text"]:
+                print(f"Réponse vide ou sans texte pour {entry.request.url}")
                 with open("erreurs.log", "a", encoding="utf-8") as log_file:
-                    log_file.write(f"Réponse vide : {entry.request.url}\n")
+                    log_file.write(f"Réponse vide ou sans texte : {entry.request.url}\n")
                 continue
 
+            response_text = content["text"]
+
+            # Vérifier l'encodage dans les headers
             content_encoding = None
             for header in entry.response.headers:
                 if header["name"].lower() == "content-encoding":
                     content_encoding = header["value"].lower()
                     break
 
-            if content_encoding:
+            # Décompresser si nécessaire
+            if content_encoding or is_base64_like(response_text):
                 response_text = decompress_response(response_text, content_encoding)
-
-            is_base64 = is_base64_like(response_text)
-            if is_base64:
-                try:
-                    print(f"Décodage base64 pour {entry.request.url}")
-                    decoded_bytes = base64.b64decode(response_text)
-                    response_text = decoded_bytes.decode("utf-8")
-                except Exception as e:
-                    print(f"Erreur de décodage base64 pour {entry.request.url} : {e}")
+                if response_text is None:
+                    print(f"Échec de décompression pour {entry.request.url}")
                     with open("erreurs.log", "a", encoding="utf-8") as log_file:
-                        log_file.write(f"URL: {entry.request.url}\nRéponse brute: {response_text}\nErreur: {e}\n\n")
+                        log_file.write(f"Échec de décompression ({content_encoding}) : {entry.request.url}\n")
                     continue
+                if is_base64_like(response_text):  # Double vérification après première tentative
+                    try:
+                        print(f"Décodage base64 supplémentaire pour {entry.request.url}")
+                        response_text = base64.b64decode(response_text).decode("utf-8")
+                    except Exception as e:
+                        print(f"Erreur de décodage base64 pour {entry.request.url} : {e}")
+                        with open("erreurs.log", "a", encoding="utf-8") as log_file:
+                            log_file.write(f"URL: {entry.request.url}\nRéponse brute: {response_text}\nErreur: {e}\n\n")
+                        continue
 
             try:
                 response_json = json.loads(response_text)
@@ -121,5 +133,23 @@ if ads_data:
         writer.writeheader()
         writer.writerows(ads_data)
     print("Données exportées en CSV : annonces_leboncoin.csv")
+
+    # Extraire les catégories pour category_mapping.json
+    categories = {}
+    for ad in ads_data:
+        cat_id = ad.get("category_id")
+        cat_name = ad.get("category_name")
+        if cat_id and cat_name and cat_id not in categories:
+            categories[cat_id] = {
+                "id": cat_id,
+                "name": cat_name,
+                "typical_items": [],
+                "description": ""
+            }
+
+    category_mapping = {"categories": list(categories.values())}
+    with open("category_mapping.json", "w", encoding="utf-8") as f:
+        json.dump(category_mapping, f, ensure_ascii=False, indent=4)
+    print("Mapping des catégories exporté dans category_mapping.json")
 else:
     print("Aucune annonce trouvée avec 'ads' dans le HAR.")
